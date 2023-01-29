@@ -9,6 +9,7 @@ const host = "192.168.0.34";
 const arrayUserNames = {};
 const Color=0
 
+
 //el usuario entra al servidor
 server.on("connection", (client) => {
   if (arrayUserNames[client.remoteAddress] === undefined) {

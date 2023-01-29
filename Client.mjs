@@ -23,6 +23,5 @@ client.on("error", (err) => {
   } else {
     console.error(err);
   }
-
   process.exit(0);
 });
